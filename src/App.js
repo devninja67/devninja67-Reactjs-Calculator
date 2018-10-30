@@ -1,13 +1,14 @@
-import React, { Component } from 'react';
-import './App.css';
+import React from 'react';
 import Header from './components/header';
+// import Calculator from './Calculator/Calculator';
 
-class App extends React.Component {
-	render() {
-		return <div>
-						<Header/>
-					 </div>
-	}
-}
+const App = () => (
+    <div style={{overflow: 'hidden'}}>
+        <Header title='React Calc' />
+        <div className="mt-md-5">
+          {/* <Calculator /> */}
+        </div>
+    </div>
+);
 
 export default App;
