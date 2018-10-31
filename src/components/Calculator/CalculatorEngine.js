@@ -8,7 +8,7 @@ let result = '';
 class CalculatorEngine {
     
     constructor(){
-        history = [],
+        // history = [],
         register = [];
         currentValue = '';
         result = '';
